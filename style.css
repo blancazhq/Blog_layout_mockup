@@ -1,0 +1,184 @@
+
+header{
+  width: 100%;
+}
+
+.header_content_div{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social_network_div{
+  margin-top: 5px;
+  display:inline-block;
+}
+
+.sign_in_div{
+  float:right;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.sign_in_text{
+  color: #1B8E58;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+#head{
+  border-radius: 50%;
+}
+
+.introduction_text{
+  display:inline-block;
+  margin-left: 10px;
+}
+
+#name {
+  display:inline;
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 0.65;
+}
+
+#name_follow{
+  display:inline;
+  position:relative;
+  top:8px;
+  z-index: 2;
+}
+
+.introduction_other{
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 0.65;
+  color: #949494;
+}
+
+.main_div{
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1{
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: -2.5px;
+  line-height: 1.04;
+  letter-spacing: -.028em;
+  color:#4E4E4E;
+}
+
+h2{
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  margin-left: -2.5px;
+  line-height: 1.04;
+  letter-spacing: -.028em;
+  color:#4E4E4E;
+}
+
+h3{
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  margin-left: -2.5px;
+  line-height: 1.04;
+  letter-spacing: -.028em;
+  color:#4E4E4E;
+}
+
+p{
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  color:#4E4E4E;
+}
+
+a{
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  color:#4E4E4E;
+}
+
+.content_pic{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  display:block;
+  position:fixed;
+  bottom: 0px;
+  width:100%;
+  background-color: white;
+}
+
+#footer_content_div{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#black_triangle{
+  vertical-align: buttom;
+  position:relative;
+  top:5px;
+  z-index: 2;
+}
+
+
+.footer_text_div{
+  display:inline-block;
+  width: 450px;
+  overflow:auto;
+}
+
+.footer_text{
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+#footer_link{
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #1B8E58;
+}
+
+#get_updates_div{
+  display:inline-block;
+  background-color: #1B8E58;
+  height: 40px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  position:relative;
+  top:-10px;
+  z-index: 2;
+}
+
+#get_updates{
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}

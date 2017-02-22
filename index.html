@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Introducing Apex Ping</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/8d1ab1bcc8.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header_content_div">
+        <div class="social_network_div">
+          <i class="fa fa-caret-up fa-2x" aria-hidden="true"></i>
+          <img src="images/follow.png">
+          <i class="fa fa-twitter fa-2x" aria-hidden="true" id="twitter"></i>
+        </div>
+        <div class="sign_in_div">
+          <span class="sign_in_text">sign in/</span>
+          <span class="sign_in_text">sign up</span>
+        </div>
+      </div>
+    </header>
+    <div class="main_div">
+      <div class="introduction">
+        <img src="images/head.jpeg" id="head">
+        <div class="introduction_text">
+          <p id="name">TJ Holowaychuk</p><img src="images/follow.png" id="name_follow">
+          <p class="introduction_other">Code. Photography. Art.</p>
+          <p class="introduction_other">Jun 16, 2016 7 min read</p>
+        </div>
+      </div>
+      <h1>Introducing Apex Ping</h1>
+      <p>I’d like to introduce <a href="https://apex.sh/ping/">Apex Ping</a>! A minimalistic, but powerful uptime &amp; performance monitoring service for websites and APIs. In this post I’ll cover features of Apex Ping, why I chose to build it first, and a few things I learned in the process. In future posts I’ll be detailing the implementation for anyone who is curious.</p>
+      <p>I soft-launched Ping about a month ago, built almost 100% on AWS Lambda, with 500 users it has already detected over a million errors, and performed over 25 million checks. Big thanks to the early adopters who have checked it out!</p>
+      <img src="images/tj_blog_img1.png" class="content_pic">
+      <h2>The product</h2>
+      <p>I’ve seen first-hand how embarrassing it can be when customers find out your product is having issues before you do, naturally this can translate to customers bailing on your product. Ensuring your site, app, or API is stable and performant is critical.</p>
+      <p>Apex Ping helps by making sure your team is notified when there’s a performance regression, or when your end-point is down or unresponsive. Often people rely on “it works for me”, but Apex Ping’s reporting can help uncover the full story.</p>
+      <h3>Powerful monitoring</h3>
+      <p>Unlike some other uptime monitoring services, which only support HEAD requests, Apex Ping support header fields and bodies as well. This allows you to test APIs, caching behaviour, and serving time, as well as the typical connection latency.</p>
+      <p>The checks listing displays the uptime, mean response, Apdex score, and Adpex score throughout the day, week, or month. The Apdex score generalizes the user experience, summarizing response time satisfaction and error responses.</p>
+      <img src="images/tj_blog_img2.png" class="content_pic">
+      <h3>Global checks</h3>
+      <p>Requests or “checks” are performed from a number of selectable PoPs (Point of Presence), giving you a glance at the customer experience all over the world. Hovering a PoP provides you with the breakdown, and coloring indicates their relative health so you can instantly see if a region’s availability or performance is degraded.</p>
+      <img src="images/tj_blog_img3.png" class="content_pic">
+      <h3>Latency distribution</h3>
+      <p>When latency is a reflection of the user-experience, it’s important not to ignore the outliers. The Latency view provides you with an intuitive look at distribution throughout the selected time period, where the intensity of the heatmap represents the number of check’s within the given duration.</p>
+      <img src="images/tj_blog_img4.png" class="content_pic">
+    </div>
+    <footer>
+      <div id="footer_content_div">
+        <img src="images/black_triangle.png" id="black_triangle">
+        <div class="footer_text_div">
+          <p class="footer_text">Never miss a story from <strong>Apex Software</strong>, when you sign up for Medium. <a href="https://medium.com/@Medium/personalize-your-medium-experience-with-users-publications-tags-26a41ab1ee0c#.jv0jd43wa" id="footer_link">Learn more</a></p>
+        </div>
+        <div id="get_updates_div">
+          <p id="get_updates">GET UPDATES</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
